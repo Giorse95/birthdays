@@ -18,7 +18,7 @@ def print_birthdays():
 
 """ If we have info about him/her, it prints the name of that person and its respective date of birth; if not it prints Sadly we don't have that birthday """
 
-def return_birthday(name)
+def return_birthday(name):
     if name in birthdays:
         print('{}\'s birthday is {}.'.format(name, birthdays[name]))
     else:
